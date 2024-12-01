@@ -1,0 +1,203 @@
+[
+    {
+      "id": 1,
+      "title": "Royal Cheese Burger",
+      "description": "A juicy cheeseburger with extra cheese and crispy fries.",
+      "price": 120,
+      "image": "/assets/Loginbanner.svg",
+      "category": "burger"
+    },
+    {
+      "id": 2,
+      "title": "Classic Margherita Pizza",
+      "description": "Fresh dough, tangy tomato sauce, and mozzarella cheese.",
+      "price": 200,
+      "image": "/assets/margherita-pizza.png",
+      "category": "pizza"
+    },
+    {
+      "id": 3,
+      "title": "Crispy French Fries",
+      "description": "Golden and crispy french fries served hot.",
+      "price": 60,
+      "image": "/assets/french-fries.png",
+      "category": "fries"
+    },
+    {
+      "id": 4,
+      "title": "Pasta Alfredo",
+      "description": "Creamy Alfredo pasta with herbs and cheese.",
+      "price": 150,
+      "image": "/assets/pasta-alfredo.png",
+      "category": "pasta"
+    },
+    {
+      "id": 5,
+      "title": "Paneer Tikka Platter",
+      "description": "Spicy grilled paneer with a side of mint chutney.",
+      "price": 180,
+      "image": "/assets/paneer-tikka.png",
+      "category": "indian"
+    },
+    {
+      "id": 6,
+      "title": "Cheese Burger",
+      "description": "Classic cheeseburger with melted cheese and crispy lettuce.",
+      "price": 100,
+      "image": "/assets/cheese-burger.png",
+      "category": "burger"
+    },
+    {
+      "id": 7,
+      "title": "Double Patty Burger",
+      "description": "A double patty with cheese, lettuce, and special sauce.",
+      "price": 150,
+      "image": "/assets/double-patty-burger.png",
+      "category": "burger"
+    },
+    {
+      "id": 8,
+      "title": "Spicy Chicken Burger",
+      "description": "A spicy chicken patty with jalapeños and tangy sauce.",
+      "price": 130,
+      "image": "/assets/spicy-chicken-burger.png",
+      "category": "burger"
+    },
+    {
+      "id": 9,
+      "title": "BBQ Bacon Burger",
+      "description": "A burger topped with crispy bacon and smoky BBQ sauce.",
+      "price": 170,
+      "image": "/assets/bbq-bacon-burger.png",
+      "category": "burger"
+    },
+    {
+      "id": 10,
+      "title": "French Fries Deluxe",
+      "description": "Deliciously crispy French fries with a side of ketchup.",
+      "price": 80,
+      "image": "/assets/french-fries-deluxe.png",
+      "category": "fries"
+    },
+    {
+      "id": 11,
+      "title": "Cheese Fries",
+      "description": "Crispy fries topped with melted cheese and herbs.",
+      "price": 90,
+      "image": "/assets/cheese-fries.png",
+      "category": "fries"
+    },
+    {
+      "id": 12,
+      "title": "Garlic Parmesan Fries",
+      "description": "Fries tossed in garlic butter and parmesan cheese.",
+      "price": 120,
+      "image": "/assets/garlic-parmesan-fries.png",
+      "category": "fries"
+    },
+    {
+      "id": 13,
+      "title": "Chili Cheese Fries",
+      "description": "Crispy fries smothered with chili and melted cheese.",
+      "price": 110,
+      "image": "/assets/chili-cheese-fries.png",
+      "category": "fries"
+    },
+    {
+      "id": 14,
+      "title": "Spicy Fries",
+      "description": "Hot and crispy fries with a spicy seasoning.",
+      "price": 100,
+      "image": "/assets/spicy-fries.png",
+      "category": "fries"
+    },
+    {
+      "id": 15,
+      "title": "Cola",
+      "description": "A refreshing glass of cola.",
+      "price": 40,
+      "image": "/assets/cola.png",
+      "category": "cold drinks"
+    },
+    {
+      "id": 16,
+      "title": "Orange Juice",
+      "description": "Freshly squeezed orange juice.",
+      "price": 60,
+      "image": "/assets/orange-juice.png",
+      "category": "cold drinks"
+    },
+    {
+      "id": 17,
+      "title": "Lemonade",
+      "description": "A tangy and refreshing lemonade drink.",
+      "price": 50,
+      "image": "/assets/lemonade.png",
+      "category": "cold drinks"
+    },
+    {
+      "id": 18,
+      "title": "Iced Tea",
+      "description": "Chilled iced tea with a hint of lemon.",
+      "price": 45,
+      "image": "/assets/iced-tea.png",
+      "category": "cold drinks"
+    },
+    {
+      "id": 19,
+      "title": "Mango Smoothie",
+      "description": "A creamy mango smoothie blended to perfection.",
+      "price": 70,
+      "image": "/assets/mango-smoothie.png",
+      "category": "cold drinks"
+    },
+    {
+      "id": 20,
+      "title": "Chocolate Milkshake",
+      "description": "A rich and creamy chocolate milkshake.",
+      "price": 90,
+      "image": "/assets/chocolate-milkshake.png",
+      "category": "cold drinks"
+    },
+    {
+      "id": 21,
+      "title": "Vanilla Milkshake",
+      "description": "A smooth and creamy vanilla milkshake.",
+      "price": 80,
+      "image": "/assets/vanilla-milkshake.png",
+      "category": "cold drinks"
+    },
+    {
+      "id": 22,
+      "title": "Strawberry Milkshake",
+      "description": "A delicious and creamy strawberry milkshake.",
+      "price": 85,
+      "image": "/assets/strawberry-milkshake.png",
+      "category": "cold drinks"
+    },
+    {
+      "id": 23,
+      "title": "Green Tea",
+      "description": "A calming cup of green tea.",
+      "price": 30,
+      "image": "/assets/green-tea.png",
+      "category": "cold drinks"
+    },
+    {
+      "id": 24,
+      "title": "Berry Smoothie",
+      "description": "A refreshing smoothie made with mixed berries.",
+      "price": 75,
+      "image": "/assets/berry-smoothie.png",
+      "category": "cold drinks"
+    },
+    {
+      "id": 25,
+      "title": "Peach Iced Tea",
+      "description": "A cool, refreshing peach iced tea.",
+      "price": 55,
+      "image": "/assets/peach-iced-tea.png",
+      "category": "cold drinks"
+    }
+  ]
+  
