@@ -3,32 +3,46 @@ const mongoose = require('mongoose');
 const dotenv = require('dotenv');
 const cors = require('cors');
 const authRoutes = require('./routes/authRoutes');
-const cartRoutes = require('./routes/cartRoutes'); // Add cart routes
+const cartRoutes = require('./routes/cartRoutes');
 
 dotenv.config();
 
 const app = express();
 
-// Enable CORS
-app.use(cors({
-  origin: process.env.CLIENT_URL || 'http://localhost:5173',
-  methods: ['GET', 'POST', 'PUT', 'DELETE'],
-  allowedHeaders: ['Content-Type', 'Authorization'],
-}));
+// Allowed origins for CORS
+const allowedOrigins = [
+  'https://foodapp-chi-azure.vercel.app',
+  'http://localhost:5173',
+];
+
+app.use(
+  cors({
+    origin: (origin, callback) => {
+      if (!origin || allowedOrigins.includes(origin)) {
+        callback(null, true);
+      } else {
+        callback(new Error('Not allowed by CORS'));
+      }
+    },
+    methods: ['GET', 'POST', 'PUT', 'DELETE'],
+    allowedHeaders: ['Content-Type', 'Authorization'],
+  })
+);
 
 // Middleware
-app.use(express.json()); // Built-in body parser
+app.use(express.json());
 app.use((req, res, next) => {
-  console.log(`${req.method} ${req.url}`); // Logging
+  console.log(`${req.method} ${req.url}`);
   next();
 });
 
 // Routes
 app.use('/api/auth', authRoutes);
-app.use('/api/cart', cartRoutes); // Use cart routes
+app.use('/api/cart', cartRoutes);
 
 // Database Connection
-mongoose.connect(process.env.MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose
+  .connect(process.env.MONGODB_URI)
   .then(() => console.log('MongoDB connected'))
   .catch((err) => {
     console.error('Failed to connect to MongoDB:', err.message);
